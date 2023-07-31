@@ -1,0 +1,41 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  color: var(--primary-color);
+  line-height: 1.5;
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+.main__content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 10rem var(--gap);
+}
+
+.main__bg {
+  background-image: url(/assets/img/main-bg.svg);
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+
+.white__bg {
+  background: var(--white-color);
+  color: var(--primary-color);
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.menu__sapcing {
+  height: 6rem;
+}
+
+body .full__width {
+  width: 100%;
+  flex: 1 1 100%;
+}
